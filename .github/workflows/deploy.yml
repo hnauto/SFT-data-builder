@@ -37,7 +37,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "hnauto-sft-data-bu-40"
+          project: "hnauto-sft-data-bu-31"
           entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
           root: "build"
           
